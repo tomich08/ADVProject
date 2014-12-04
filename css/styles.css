@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*************main tags******************/
+html{background-color:#000;}
+
+#canvas{
+	background-color:#000;
+	height:900px;
+	width:1900px;
+	padding-top:100px;
+	margin-left:50px;
+}
+
+#activeArea{
+	width:1120px;
+	height:488px;
+	background-color:#fff;
+	margin-left:200px;
+	position:absolute;
+}
+
+/**********header tags******************/
+h1{
+	text-align:center;
+	font-weight:bold;
+	color:red;
+	font-size:1.3em;
+}
+
+h2{
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+}
+
+
+/**************arrows********************/
+#twoArrow{height:0px;width:10px;background-color:#000;margin-left:170px;bottom:340px;position:absolute;opacity:1;}
+#threeArrow{height:20px;width:10px;background-color:#000;margin-left:419px;top:130px;position:absolute;opacity:0;}
+#fourArrow{height:20px;width:10px;background-color:#000;margin-left:432px;top:130px;position:absolute;opacity:0;z-index:30;}
+#fiveArrow{height:20px;width:10px;background-color:#000;margin-left:680px;top:130px;position:absolute;opacity:0;z-index:30;}
+#sixArrow{height:20px;width:10px;background-color:#000;margin-left:694px;top:130px;position:absolute;opacity:0;z-index:30;}
+#sevenArrow{height:50px;width:10px;background-color:#000;margin-left:943px;top:110px;position:absolute;opacity:0;z-index:30;}
+#eightArrow{height:30px;width:10px;background-color:#000;margin-left:943px;top:130px;position:absolute;opacity:0;z-index:30;}
+#eightArrowExt{height:10px;width:20px;background-color:#000;margin-left:943px;top:120px;position:absolute;opacity:0;z-index:30;}
+
+#tenArrow{height:95px;width:10px;background-color:#000;margin-left:930px;top:160px;position:absolute;opacity:0;z-index:30;}
+#tenArrowExtB{height:10px;width:27px;background-color:#000;margin-left:938px;top:245px;position:absolute;opacity:0;z-index:30;}
+#tenArrowExt{height:20px;width:10px;background-color:#000;margin-left:955px;top:225px;position:absolute;opacity:0;z-index:30;}
+
+
+#leftArrow{width:20px;height:10px;background-color:#000;margin-left:236px;top:150px;opacity:0;position:absolute;right:270px;}
+/*#fillerArrow{width:800px;height:10px;color:#000;top:150px;position:absolute;margin-left:200px;opacity:1;}*/
+#rightArrow{width:20px;height:10px;background-color:#000;margin-left:836px;opacity:0;top:150px;position:absolute;}
+
+
+/*************pop ups***********************/
+#onePopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#twoPopUp{display:none;width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#threePopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#fourPopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#fivePopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#sixPopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#sevenPopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#eightPopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#ninePopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+#tenPopUp{width:0px;height:0px;background-color:#ccc;position:absolute;left:350px;top:250px;z-index:0;opacity:0;}
+
+
+/*****************restart*******************/
+#restart{width:200px;height:100px;position:absolute;left:500px;top:300px;background-color:#ccc;opacity:0;}
+
+
+
+/**************room styles****************/
+#touchScreen{
+	height:30px;
+	color:#fff;
+	width:50px;
+	background-color:red;
+	position:absolute;
+	top:117px;
+	margin-left:822px;
+}
+
+#one{
+	background-image:url(../img/515.jpg);
+	position:absolute;
+	top:20px;
+	left:36px;
+}
+
+#two{
+	background-image:url(../img/514.jpg);
+	position:absolute;
+	top:0px;
+	margin-left:167px;
+}
+
+#three{
+	background-image:url(../img/513.jpg);
+	position:absolute;
+	top:20px;
+	margin-left:298px;
+}
+
+#four{
+	background-image:url(../img/511.jpg);
+	position:absolute;
+	top:20px;
+	margin-left:429px;
+}
+
+#five{
+	background-image:url(../img/509.jpg);
+	position:absolute;
+	top:20px;
+	margin-left:560px;
+}
+
+#six{
+	background-image:url(../img/507.jpg);
+	position:absolute;
+	top:20px;
+	margin-left:691px;
+}
+
+#seven{
+	background-image:url(../img/506.jpg);
+	position:absolute;
+	top:0px;
+	margin-left:822px;
+}
+
+#eight{
+	background-image:url(../img/505.jpg);
+	position:absolute;
+	top:20px;
+	margin-left:953px;
+}
+
+#nine{
+	background-image:url(../img/516.jpg);
+	position:absolute;
+	top:132px;
+	left:36px;
+}
+
+#ten{
+	background-image:url(../img/504.jpg);
+	position:absolute;
+	top:132px;
+	margin-left:953px;
+}
+/*
+<div id="stairsLeft"></div>
+<div id="library"></div>
+<div id="ramp1"></div>
+<div id="ramp2"></div>
+<div id="gallery"></div>
+<div id="ramp3"></div>
+<div id="ramp4"></div>
+<div id="eleven"></div>
+<div id="stairsRight"></div>
+*/
+#stairsLeft{background-image:url(../img/stairLeft.jpg);width:81px;height:47px;position:absolute;top:275px;left:0;}
+#library{background-image:url(../img/library.png);width:201px;height:210px;position:absolute;top:277px;left:30px;z-index:30;}
+#ramp1{background-image:url(../img/RampUpRt.jpg);width:33px;height:202px;position:absolute;top:285px;left:231px;}
+#ramp2{background-image:url(../img/RampDownRt.jpg);width:33px;height:202px;position:absolute;top:285px;left:264px;}
+#gallery{background-image:url(../img/gallery.jpg);width:521px;height:202px;position:absolute;top:285px;left:297px;}
+#ramp3{background-image:url(../img/RampDownRt.jpg);width:33px;height:202px;position:absolute;top:285px;left:818px;}
+#ramp4{background-image:url(../img/RampUpRt.jpg);width:33px;height:202px;position:absolute;top:285px;left:851px;}
+#eleven{background-image:url(../img/502.jpg);width:152px;height:101px;position:absolute;top:285px;left:884px;}
+#stairsRight{background-image:url(../img/stairsRight.png);width:82px;height:47px;position:absolute;top:285px;left:1036px;}
+
+.roomStyle1{
+	width:131px;
+	height:112px;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.roomStyle2{
+	width:131px;
+	height:117px;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*************room pics***********************/
+.511pic{width:100%;max-width:400px;max-height:400px;}
+
+/***clearfix***/		
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	/*display: inline-block;*/
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
